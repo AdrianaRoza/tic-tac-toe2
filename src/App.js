@@ -23,8 +23,6 @@ export default function App() {
     border:'1px solid #000'
   }
 
-  
-
   return(
     <>
     
