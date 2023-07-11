@@ -23,10 +23,10 @@ export default function App() {
     border:'1px solid #000'
   }
 
-  const jogoInicial = [['','',''],['','',''],['','','']]
-  const [jogo,setJogo] = useState([['','',''],['','',''],['','','']])
-  const [simboloAtual,setSimboloAtual] = useState('X')
-  const [jogando,setJogando] = useState(true)
+  const startingGame = [['','',''],['','',''],['','','']]
+  const [game,setGame] = useState([['','',''],['','',''],['','','']])
+  const [currentSymbol,setCurrentSymbol] = useState('X')
+  const [playing,setPlaying] = useState(true)
 
   
 
