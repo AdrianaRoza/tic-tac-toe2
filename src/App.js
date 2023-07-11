@@ -1,9 +1,34 @@
+import { useState } from "react";
 
+export default function App() {
 
-function App() {
-  return(
-    <h1>Olá</h1>
-  )
+  // ESTILOS
+  const board = {
+    display:'flex',
+    flexDirection:'column'
   }
- export default App;
+  const boardLine = {
+    display:'flex',
+    flexDirection: 'row'
+  }
+  const house = {
+    width: 100,
+    height: 100,
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    flexDirection: 'row',
+    cursor:'pointer',
+    fontSize:'60',
+    border:'1px solid #000'
+  }
+
+  
+
+  return(
+    <>
+    
+    </>
+  )
+}
 
